@@ -1,2 +1,2 @@
-# Alien loves you
-AI generated love letters from Extra dilensional beings to Mother Earth
+# Appli omnisciente
+Citations à ériger en loi universelle sans modération
