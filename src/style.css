@@ -1,0 +1,117 @@
+/*
+.first-color { 
+	background: #f4eeff; 
+}
+	
+.second-color { 
+	background: #dcd6f7; 
+}
+
+.third-color { 
+	background: #a6b1e1; 
+}
+
+.fourth-color { 
+	background: #424874; 
+
+  */
+
+
+
+
+body {
+  background: #dcd6f7;
+  text-align: center;
+}
+a {
+  color: #a6b1e1;
+}
+@keyframes fallingSakura {
+  0% {
+    transform: translateY(-100%) rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+.sakura {
+  position: fixed;
+  color: #a6b1e1;
+  font-size: 20px;
+  pointer-events: none;
+  z-index: 1;
+}
+.sakura:nth-child(1) { animation: fallingSakura 5s linear infinite; left: 10%; }
+.sakura:nth-child(2) { animation: fallingSakura 7s linear infinite; left: 30%; animation-delay: 1s; }
+.sakura:nth-child(3) { animation: fallingSakura 6s linear infinite; left: 50%; animation-delay: 2s; }
+.sakura:nth-child(4) { animation: fallingSakura 8s linear infinite; left: 70%; animation-delay: 3s; }
+.sakura:nth-child(5) { animation: fallingSakura 9s linear infinite; left: 90%; animation-delay: 4s; }
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #407088;
+}
+form {
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba (39, 33,
+      66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: #407088;
+}
+.container {
+  margin: 120px auto;
+  max-width: 800px;
+}
+.submit-button {
+  margin-left: 10px;
+  background: #a6b1e1;
+  color: white;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 14px 24px;
+}
+.poem {
+  font-size: 20px;
+  background-color: #407088;
+  color: #132743;
+  padding: 20px;
+  line-height: 24px;
+  box-shadow: 0px 20px 60px rgba (65, 50, 100, 0.08);
+  ;
+}
+footer {
+  text-align: center;
+}
+header {
+  margin-bottom: 30px;
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+  color: white;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
