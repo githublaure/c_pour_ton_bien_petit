@@ -8,7 +8,7 @@ async function generatePoem(event) {
   const apiKey = "oafbe8035b88726c0e80be71t4409330";
   const poemDiv = document.querySelector(".poem");
 
-  poemDiv.innerHTML = "✿ Generating a love letter... ✿";
+  poemDiv.innerHTML = "✿ L'AI réfléchit... ✿";
 
   try {
     const apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${encodeURIComponent(prompt)}&context=${encodeURIComponent(context)}&key=${apiKey}`;
