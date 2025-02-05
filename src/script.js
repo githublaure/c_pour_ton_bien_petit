@@ -4,7 +4,7 @@ async function generatePoem(event) {
 
   const instructionsInput = document.querySelector(".instructions");
   const prompt = instructionsInput.value;
-  const context = "Répondre une citation à côté de la plaque qui se veut super philosophique à l'input de l'utilisateur, veille à ce que cela soit humoristique sans jamais être méchant ou trop vulgaire bien sûr";
+  const context = "Répondre une citation à côté de la plaque qui se veut super philosophique à l'input de l'utilisateur, veille à ce que cela soit humoristique sans jamais être méchant ou trop vulgaire bien sûr. La réponse doit être courte, philosophique avec un sens caché mais expéditive donnant l'impression qu'on se moque";
   const apiKey = "oafbe8035b88726c0e80be71t4409330";
   const poemDiv = document.querySelector(".poem");
 
